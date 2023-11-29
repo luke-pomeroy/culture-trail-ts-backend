@@ -1,0 +1,150 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Role {
+  id        String     @id @default(cuid())
+  name      String     @unique
+  users     UserRole[]
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+
+  @@map(name: "roles")
+}
+
+model User {
+  id               String         @id @default(cuid())
+  email            String         @unique
+  password         String
+  verified         Boolean?       @default(false)
+  verificationCode String?        @unique
+  refreshTokens    RefreshToken[]
+  roles            UserRole[]
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  Tour             Tour[]
+
+  @@unique([email, verificationCode])
+  @@index([email, verificationCode])
+  @@map(name: "users")
+}
+
+model UserRole {
+  id        String   @id @default(cuid())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId    String
+  role      Role     @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  roleId    String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, roleId])
+  @@index([userId, roleId])
+  @@map(name: "user_roles")
+}
+
+model RefreshToken {
+  id          String   @id @default(cuid())
+  hashedToken String
+  userId      String
+  User        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  revoked     Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map(name: "refresh_tokens")
+}
+
+model Media {
+  id         String          @id @default(cuid())
+  filename   String           @unique
+  caption    String?
+  creditLine String?
+  places     PlaceMedia[]
+  categories CategoryMedia[]
+  createdAt  DateTime        @default(now())
+  updatedAt  DateTime        @updatedAt
+
+  @@map(name: "media")
+}
+
+model PlaceMedia {
+  id        String   @id @default(cuid())
+  media     Media    @relation(fields: [mediaId], references: [id], onDelete: Cascade)
+  mediaId   String
+  place     Place    @relation(fields: [placeId], references: [id], onDelete: Cascade)
+  placeId   String
+  order     Int
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([mediaId, placeId])
+  @@index([mediaId, placeId])
+  @@map(name: "place_media")
+}
+
+model CategoryMedia {
+  id         String   @id @default(cuid())
+  media      Media    @relation(fields: [mediaId], references: [id], onDelete: Cascade)
+  mediaId    String
+  category   Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  categoryId String
+  order      Int
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@unique([mediaId, categoryId])
+  @@index([mediaId, categoryId])
+  @@map(name: "category_media")
+}
+
+model Place {
+  id           String       @id @default(cuid())
+  name         String
+  description  String?
+  externalLink String?
+  latitude     Float?
+  longitude    Float?
+  media        PlaceMedia[]
+  categories   Category[]   @relation(name: "place_categories")
+  tours        Tour[]       @relation(name: "tour_places")
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+
+  @@map(name: "places")
+}
+
+model Category {
+  id          String          @id @default(cuid())
+  name        String          @unique
+  description String?
+  media       CategoryMedia[]
+  places      Place[]         @relation(name: "place_categories")
+  createdAt   DateTime        @default(now())
+  updatedAt   DateTime        @updatedAt
+
+  @@map(name: "categories")
+}
+
+model Tour {
+  id          String    @id @default(cuid())
+  name        String
+  status      String    @default("pending")
+  completedOn DateTime?
+  description String?
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId      String
+  places      Place[]   @relation(name: "tour_places")
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@map(name: "tours")
+}

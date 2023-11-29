@@ -1,0 +1,194 @@
+{ 
+    "places": [
+        {
+            "name": "Glasgow Botanic Gardens",
+            "status": "draft",
+            "description": "Glasgow Botanic Gardens looks after over 9000 different plants, and has several stunning Victorian glasshouses as well as over 20 hectares of landscaped gardens to explore alonside the River Kelvin. One of the main features of the botanic gardens is a vast cast iron domed greenhouse called the 'Kibble Palace', named after the Victorian John Kibble who brought the greenhouse from his home at Coulport, Loch Long to Glasgow in 1873.",
+            "primaryMediaFilename": "ricardo-mena-6kD24Hp7pkE-unsplash.jpg",
+            "externalLink": "https://www.glasgow.gov.uk/botanicgardens",
+            "latitude": 55.87825,
+            "longitude": -4.28975,
+            "categories": [
+                "Gardens", "Greenhouses"
+            ]
+        },
+        {
+            "name": "People's Palace and Winter Gardens",
+            "status": "draft",
+            "description": "The People's Palace is home to a collection of items providing a unique view into how Glaswegians lived, worked and played from years gone by to the present day. The museum consists of a main building backing onto a large conservatory that previously housed a winter garden (conservatory currently closed).",
+            "primaryMediaFilename": "pascal-bernardon-XRGmBLs8mBo-unsplash.jpg",
+            "externalLink": "https://www.glasgowlife.org.uk/museums/venues/peoples-palace",
+            "latitude": 55.8512,
+            "longitude": -4.2373,
+            "categories": [
+                "Gardens", "Greenhouses", "Museums"
+            ]
+        },
+        {
+            "name": "Tolbooth Steeple",
+            "status": "draft",
+            "description": "The Tolbooth Steeple was once part of a larger building that formed part of the Glasgow Tolbooth at Glasgow Cross, and was built in 1634. The seven-storey steeple is topped by a clock and a stone crown. The building it formed a part of provided accomodation for the Town Clerk's office, the council hall and the city prison.",
+            "primaryMediaFilename": "pexels-anna-urlapova-3035106.jpg",
+            "externalLink": "",
+            "latitude": 55.8568,
+            "longitude": -4.2436,
+            "categories": [
+                "Historical Landmarks"
+            ]
+        },
+        {
+            "name": "Glasgow Cathedral",
+            "status": "draft",
+            "description": "Glasgow Cathedral is a parish church of the Church of Scotland, and is a stunning example of Gothic Architecture. The cathedral is the oldest building in Glasgow, and the oldest cathedral on the Scottish mainland, having survived the Reformation of 1560 (mostly) intact. The cathedral is dedicated to Saint Mungo, the patron saint of Glasgow, whose tomb lies at the centre of the building's Lower Church.",
+            "primaryMediaFilename": "pexels-chikondi-gunde-10205175.jpg",
+            "externalLink": "https://glasgowcathedral.org/",
+            "latitude": 55.8630,
+            "longitude": -4.2346,
+            "categories": [
+                "Churches"
+            ]
+        },
+        {
+            "name": "Kelvingrove Art Gallery and Museum",
+            "status": "draft",
+            "description": "Kelvingrove Art Gallery and Museum is a museum and art gallery in Glasgow, Scotland, managed by Glasgow Museums. The building is located in Kelvingrove Park in the West End of the city, adjacent to Argyle Street. Kelvingrove Art Gallery and Museum is one of Scotland's most popular museums and free visitor attractions.",
+            "primaryMediaFilename": "3839582240_e8ab2d2100_b-dalbera.jpg",
+            "externalLink": "https://www.glasgowlife.org.uk/museums/venues/kelvingrove-art-gallery-and-museum",
+            "latitude": 55.8686,
+            "longitude": -4.2906,
+            "categories": [
+                "Museums", "Art Galleries"
+            ]
+        },
+        {
+            "name": "Riverside Museum",
+            "status": "draft",
+            "description": "The Riverside Museum is a museum in Glasgow, designed by Zaha Hadid Architects, housed in a building at Pointhouse Quay in the Glasgow Harbour regeneration district of Glasgow, Scotland. The building opened in June 2011, winning the 2013 European Museum of the Year Award.",
+            "primaryMediaFilename": "11538004223_fce7812231_b-ronnie-macdonald.jpg",
+            "externalLink": "https://www.glasgowlife.org.uk/museums/venues/riverside-museum",
+            "latitude": 55.8651,
+            "longitude": -4.3062,
+            "categories": [
+                "Museums", "Maritime History"
+            ]
+        },
+        {
+            "name": "The Burrell Collection",
+            "status": "draft",
+            "description": "The Burrell Collection is a museum in Glasgow, Scotland, managed by Glasgow Museums. It houses the art collection of Sir William Burrell and Constance, Lady Burrell. The museum opened in 1983 and reopened on 29 March 2022 following a major refurbishment.",
+            "primaryMediaFilename": "3817532604_cc75995835_b-dalbera.jpg",
+            "externalLink": "https://www.glasgowlife.org.uk/museums/venues/the-burrell-collection",
+            "latitude": 55.8309,
+            "longitude": -4.3076,
+            "categories": [
+                "Museums"
+            ]
+        },
+        {
+            "name": "Gallery of Moden Art (GoMA)",
+            "status": "draft",
+            "description": "The Gallery of Modern Art is the main gallery of contemporary art in Glasgow, Scotland. GoMA offers a programme of temporary exhibitions and workshops. GoMA displays work by local and international artists as well as addressing contemporary social issues through its major biannual projects.",
+            "primaryMediaFilename": "korng-sok-mKX_DVZ2Tqo-unsplash.jpg",
+            "externalLink": "https://www.glasgowlife.org.uk/museums/venues/gallery-of-modern-art-goma",
+            "latitude": 55.8602,
+            "longitude": -4.2525,
+            "categories": [
+                "Art Galleries"
+            ]
+        },
+        {
+            "name": "St Mungo Museum of Religious Life and Art",
+            "status": "draft",
+            "description": "This award-winning museum is named after Glasgow's patron saint who brought the Christian faith to Scotland in the sixth century. It was constructed in 1989 on the site of a medieval castle-complex, the former residence of the bishops of Glasgow, parts of which can be seen inside the Cathedral and at the People's Palace, Glasgow. The museum building emulates the Scottish Baronial architectural style used for the former bishop's castle.",
+            "primaryMediaFilename": "St_Mungo_Museum_of_Religious_Life_and_Art_-_geograph.org.uk_-_3633404-thomas-nugent.jpg",
+            "externalLink": "https://www.glasgowlife.org.uk/museums/venues/st-mungo-museum-of-religious-life-and-art",
+            "latitude": 55.8625,
+            "longitude": -4.2363,
+            "categories": [
+                "Museums", "Art Galleries"
+            ]
+        },
+        {
+            "name": "Glasgow Police Museum",
+            "status": "draft",
+            "description": "The museum contains thousands of artefacts and two main exhibitions. The International Police Exhibition displays a unique collection of over 2,000 items of insignia, headgear and uniforms from every country in the world. The Glasgow Police Historical Exhibition includes artefacts and text boards, which give you an insight into the people and events that contributed to the founding of Britain’s first Police Force, the City of Glasgow Police from 1779-1975.",
+            "primaryMediaFilename": "Police_Museum-Ron-Almog.jpg",
+            "externalLink": "http://www.policemuseum.org.uk/",
+            "latitude": 55.8581,
+            "longitude": -4.2449,
+            "categories": [
+                "Museums"
+            ]
+        },
+        {
+            "name": "The Tenement House",
+            "status": "draft",
+            "description": "Experience early 20th-century Glasgow life in this ‘time capsule’ of a tenement house. Miss Agnes Toward lived here from 1911 until 1965, and looked after her furniture and possessions with love and care. Marvel at the coal-fired kitchen range and see how many household items from bygone decades you recognise.",
+            "primaryMediaFilename": "tenement-house.jpg",
+            "externalLink": "https://www.nts.org.uk/visit/places/the-tenement-house",
+            "latitude": 55.8686,
+            "longitude": -4.2683,
+            "categories": [
+                "Museums"
+            ]
+        },
+        {
+            "name": "Hunterian Art Gallery",
+            "status": "draft",
+            "description": "Home to one of Scotland's largest print collections, a sculpture courtyard and numerous art works on display including works by Whistler, Mackintosh, Rembrandt, Rubens, the Glasgow Boys and the Scottish Colourists.",
+            "primaryMediaFilename": "hunterian-art-gallery.jpg",
+            "externalLink": "https://www.gla.ac.uk/hunterian/visit/ourvenues/hunterianartgallery",
+            "latitude": 55.8731,
+            "longitude": -4.2891,
+            "categories": [
+                "Art Galleries"
+            ]
+        },
+        {
+            "name": "Hunterian Museum",
+            "status": "draft",
+            "description": "The Hunterian Museum is a stunning space filled with collections that explore the development of knowledge and understanding and the relationship between Glasgow, Scotland and the rest of the world.",
+            "primaryMediaFilename": "Hunterian_Museum,_main_hall.jpg",
+            "externalLink": "https://www.gla.ac.uk/hunterian/visit/ourvenues/hunterianmuseum/",
+            "latitude": 55.8686,
+            "longitude": -4.2906,
+            "categories": [
+                "Museums"
+            ]
+        },
+        {
+            "name": "Stewart Memorial Fountain",
+            "status": "draft",
+            "description": "The Stewart Memorial Fountain was erected in Kelvingrove Park in 1872, and commemorates the contriubution of the Lord Provost Robert Stewart to the campaign to pass the Loch Katerine Act of 1855, paving the way to a fresh water supply for Glasgow.",
+            "primaryMediaFilename": "Stewart_Memorial_Fountain.jpg",
+            "externalLink": "",
+            "latitude": 55.8680,
+            "longitude": -4.2838,
+            "categories": [
+                "Memorials", "Fountains"
+            ]
+        }
+    ],
+    "users": [
+        { 
+            "email": "admin@culture-trail.app",
+            "password": "changeme",
+            "roles": ["user", "editor", "admin"]
+          },
+          {
+            "email": "editor@culture-trail.app",
+            "password": "changeme",
+            "roles": ["user", "editor"]
+          },
+          {
+            "email": "user@culture-trail.app",
+            "password": "changeme",
+            "roles": ["user"]
+          }
+    ],
+    "roles": [
+        { "name": "admin" },
+        { "name": "editor" },
+        { "name": "user" }
+    ]
+}
